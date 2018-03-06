@@ -1,0 +1,11 @@
+{
+	"id": "nodebb-plugin-share-post-icons-cn",
+	"url": "https://github.com/0312birdzhang/nodebb-plugin-share-post-icons-cn",
+	"scripts": [
+		"static/lib/main.js"
+	],
+	"less": [
+		"static/style.less"
+	],
+	"templates": "static/templates"
+}

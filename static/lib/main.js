@@ -18,7 +18,8 @@ $(document).ready(function () {
 				}
 			});
 
-			$('#content').off('click', '[component="share/linkedin"]').on('click', '[component="share/linkedin"]', function (ev) {
+			$('#content')
+			.off('click', '[component="share/linkedin"]').on('click', '[component="share/linkedin"]', function (ev) {
 				var pid = $(this).parents('[data-pid]').attr('data-pid');
 				var urlToPost = encodeURIComponent(url + '/post' + (pid ? '/' + (pid) : ''));
 				var shareURL = 'https://www.linkedin.com/shareArticle?mini=true&url=' + urlToPost;
@@ -36,6 +37,13 @@ $(document).ready(function () {
 				var pid = $(this).parents('[data-pid]').attr('data-pid');
 				var urlToPost = encodeURIComponent(url + '/post' + (pid ? '/' + (pid) : ''));
 				var shareURL = 'https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=' + urlToPost;
+				window.open(shareURL, '请用微信扫描二维码分享', 'width=300,height=300,scrollbars=no,status=no');
+				return false;
+			})
+			.off('click', '[component="share/qq"]').on('click', '[component="share/qq"]', function (ev) {
+				var pid = $(this).parents('[data-pid]').attr('data-pid');
+				var urlToPost = encodeURIComponent(url + '/post' + (pid ? '/' + (pid) : ''));
+				var shareURL = 'http://connect.qq.com/widget/shareqq/index.html?title='+ title +'&url=' + urlToPost;
 				window.open(shareURL, '_blank', 'width=550,height=550,scrollbars=no,status=no');
 				return false;
 			})

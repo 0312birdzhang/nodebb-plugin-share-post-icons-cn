@@ -5,5 +5,6 @@
 	<a role="menuitem" component="share/linkedin" tabindex="-1" href="#"><span class="menu-icon"><i class="fa fa-linkedin"></i></span></a>
 	<a role="menuitem" component="share/weibo" tabindex="-1" href="#"><span class="menu-icon"><i class="fa fa-weibo"></i></span></a>
 	<a role="menuitem" component="share/wechat" tabindex="-1" href="#"><span class="menu-icon"><i class="fa fa-weixin"></i></span></a>
+	<a role="menuitem" component="share/qq" tabindex="-1" href="#"><span class="menu-icon"><i class="fa fa-qq"></i></span></a>
 <!--	<a role="menuitem" component="share/douban" tabindex="-1" href="#"><span class="menu-icon"><i class="fa fa-douban"></i></span></a> -->
 </span>

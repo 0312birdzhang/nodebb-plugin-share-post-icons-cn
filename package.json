@@ -5,7 +5,7 @@
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/0312birdzhang/nodebb-plugin-share-post-icons"
+    "url": "https://github.com/0312birdzhang/nodebb-plugin-share-post-icons-cn"
   },
   "keywords": ["nodebb", "plugin", "social", "icons", "share", "facebook", "gplus", "twitter", "weibo", "wechat"
   ],
@@ -15,7 +15,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/0312birdzhang/nodebb-plugin-share-post-icons/issues"
+    "url": "https://github.com/0312birdzhang/nodebb-plugin-share-post-icons-cn/issues"
   },
   "readmeFilename": "README.md",
   "nbbpm": {

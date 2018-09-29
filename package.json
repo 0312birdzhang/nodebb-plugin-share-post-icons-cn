@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-share-post-icons-cn",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Displays social sharing icons beneath every post in a topic",
   "main": "library.js",
   "repository": {
@@ -19,6 +19,6 @@
   },
   "readmeFilename": "README.md",
   "nbbpm": {
-    "compatibility": "^1.7.0 || ^1.8.0"
+    "compatibility": "^1.7.0 || ^1.8.0 || ^1.10.0"
   }
 }

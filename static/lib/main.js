@@ -61,11 +61,12 @@ $(document).ready(function () {
 		var posts = pid ? '[component="post"][data-pid="' + pid + '"]' : '[component="post"]';
 		$(posts).each(function () {
 			var post = $(this);
-            if(!post.hasClass("nodebb-plugin-share-post-icons-cn")){
-                app.parseAndTranslate('partials/nodebb-plugin-share-post-icons-cn/share', {}, function (tpl) {
-                    $(tpl).insertBefore(post.find('.post-tools'));
-                });
-            }
+			var share_icons_cn = $('[class="pull-right"]');
+        	if(!share_icons_cn.hasClass("nodebb-plugin-share-post-icons-cn")){
+				app.parseAndTranslate('partials/nodebb-plugin-share-post-icons-cn/share', {}, function (tpl) {
+					$(tpl).insertBefore(post.find('.post-tools'));
+				});
+			}
 		});
 	}
 });
